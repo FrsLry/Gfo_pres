@@ -551,7 +551,7 @@ class: inverse, center, middle
 # Species richness trend across spatial scales
 
 ```{r, out.width="95%"}
-knitr::include_graphics('../phd/docs/phd_files/figure-html/unnamed-chunk-30-1.png')
+knitr::include_graphics('images/atlas_maps_boxplot.png')
 ```
 
 ---
@@ -559,7 +559,7 @@ knitr::include_graphics('../phd/docs/phd_files/figure-html/unnamed-chunk-30-1.pn
 # Species richness trend across spatial scales
 
 ```{r, out.width="95%"}
-knitr::include_graphics("../phd/docs/phd_files/figure-html/unnamed-chunk-27-1.png")
+knitr::include_graphics("images/boxplot.png")
 ```
 ---
 
@@ -580,7 +580,7 @@ knitr::include_graphics("../phd/docs/phd_files/figure-html/unnamed-chunk-27-1.pn
 .pull-right[
 <br>
 ```{r, out.width="95%"}
-knitr::include_graphics("../phd/docs/phd_files/figure-html/unnamed-chunk-27-1.png")
+knitr::include_graphics("images/boxplot.png")
 ```
 ]
 
@@ -621,7 +621,7 @@ randomForest(sr ~ Lat + Long + AREA + Date + polypoint_ratio + time_span)
 .center[
 
 ```{r, out.width="72%"}
-knitr::include_graphics("../phd/docs/phd_files/figure-html/unnamed-chunk-128-1.png")
+knitr::include_graphics("images/obs_vs_pred.png")
 ```
 ]
 
@@ -634,7 +634,7 @@ knitr::include_graphics("../phd/docs/phd_files/figure-html/unnamed-chunk-128-1.p
 .center[**The SAR**]
 
 ```{r, out.width="100%"}
-knitr::include_graphics("../phd/RF/partial_plots/atlas_JPSP_fiveyears/AREA.jpg")
+knitr::include_graphics("images/sar_rf.jpg")
 ```
 ]
 
@@ -643,7 +643,7 @@ knitr::include_graphics("../phd/RF/partial_plots/atlas_JPSP_fiveyears/AREA.jpg")
 .center[**The STR**]
 
 ```{r, out.width="100%"}
-knitr::include_graphics("../phd/RF/partial_plots/atlas_JPSP_fiveyears/time_span.jpg")
+knitr::include_graphics("images/str_rf.jpg")
 ```
 
 ]
@@ -657,7 +657,7 @@ knitr::include_graphics("../phd/RF/partial_plots/atlas_JPSP_fiveyears/time_span.
 .center[**The STAR**]
 
 ```{r, out.width="100%"}
-knitr::include_graphics("../phd/RF/partial_plots/atlas_JPSP_fiveyears/double_partial/STAR.png")
+knitr::include_graphics("images/star_rf.png")
 ```
 
 ]
@@ -667,7 +667,7 @@ knitr::include_graphics("../phd/RF/partial_plots/atlas_JPSP_fiveyears/double_par
 .center[<br>]
 
 ```{r, out.width="100%"}
-knitr::include_graphics("../phd/RF/partial_plots/atlas_plus_JPSP/double_partial/date_time.png")
+knitr::include_graphics("images/str_overtime.png")
 ```
 ]
 
