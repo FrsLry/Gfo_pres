@@ -569,7 +569,7 @@ knitr::include_graphics("images/boxplot.png")
 
 * Increasing species richness trend with spatial scale
 
-* Coherent with Chase *et. al* 2019
+* Coherent with Chase *et. al* 2019, Hill & Hammer 2004
 
 * Easier extirpation at smaller scales
 
@@ -616,7 +616,7 @@ Predictions will allow me to fill the boxplot gaps, spatial and temporal gaps
 randomForest(sr ~ Lat + Long + AREA + Date + polypoint_ratio + time_span)
 ```
 
-* $R^2 > 90\%$ 
+* $R^2 > 90\%$ | $RMSE \approx 4$ | $MAE \approx 3$ 
 
 .center[
 
