@@ -314,7 +314,7 @@ shp_country <- ne_countries(scale = "medium", returnclass = "sf")
 ]
 
 .pull-right[
-Spatial scales ranging from less than 100 Km $^2$ to more than 80 000 Km $^2$ (the entire Czech Republic)
+Spatial scales ranging from less than 100 Km $^2$ to 80 000 Km $^2$ (the entire Czech Republic)
 ]
 
 ---
@@ -608,22 +608,13 @@ Machine learning approach allows me to:
 
 Predictions will allow me to fill the boxplot gaps, spatial and temporal gaps  
 
----
+<br>
 
-# Random Forest
+**Formula:**
 
 ```{r, echo=T, eval=F}
 randomForest(sr ~ Lat + Long + AREA + Date + polypoint_ratio + time_span)
 ```
-
-* $R^2 > 90\%$ | $RMSE \approx 4$ | $MAE \approx 3$ 
-
-.center[
-
-```{r, out.width="72%"}
-knitr::include_graphics("images/obs_vs_pred.png")
-```
-]
 
 ---
 
@@ -636,6 +627,7 @@ knitr::include_graphics("images/obs_vs_pred.png")
 ```{r, out.width="100%"}
 knitr::include_graphics("images/sar_rf.jpg")
 ```
+
 ]
 
 .pull-right[
@@ -673,10 +665,24 @@ knitr::include_graphics("images/str_overtime.png")
 
 ---
 
+# Predicitons
+
+* For <span style="color: blue;">50 $Km²$</span> and <span style="color: blue;">10 000 $Km²$</span>
+
+
+
+.center[
+```{r, out.width="87%"}
+knitr::include_graphics("images/boxplot_with_predictions.png")
+```
+]
+
+---
+
 # Next steps
 
 <br>
-* Use the Random Forest for predictions
+* Take into account the sampling effort
 
 <br>
 * Compute the Species Richness trend for different spatial scales
@@ -691,7 +697,7 @@ knitr::include_graphics("images/str_overtime.png")
 * Study other biodiversity metric
 
 <br>
-* Once the model is tailored for the Czech Republic, enlarge it to western europe
+* Enlarge the model to western europe
 
 ---
 
