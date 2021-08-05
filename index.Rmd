@@ -198,12 +198,12 @@ What about space, time and...
 
 .center[*"Species richness change can increase, decrease, reverse or be unimodal accross spatial scales."*]
 
-* For North American birds, larger spatial scales seem to increase positively the species richness (Chase *et al* 2019)
+* For North American birds, larger spatial scales seem to increase positively the species richness (Oikos, Chase *et al* 2019)
 <br>
 
 --------
 
-* Temporal dissimilarity and turnover, extinction and colonization seem to decrease with increasing spatial scales (Jarzyna *et al.* 2015)
+* Temporal <span style="color: grey;">dissimilarity</span> and <span style="color: red;">turnover</span>, <span style="color: orange;">extinction</span> and <span style="color: blue;">colonization</span> seem to decrease with increasing spatial scales (Glob. Ecol. Biogeogr., Jarzyna *et al.* 2015)
 ]
 
 
@@ -665,6 +665,30 @@ knitr::include_graphics("images/str_overtime.png")
 
 ---
 
+
+# Predicitons
+
+* For <span style="color: blue;">50 $Km²$</span> and <span style="color: blue;">10 000 $Km²$</span>
+
+
+.pull-left[
+<br>
+```{r, out.width="100%"}
+knitr::include_graphics("images/50sqkm.png")
+```
+]
+
+
+.pull-right[
+<br>
+```{r, out.width="100%"}
+knitr::include_graphics("images/10000sqkm.png")
+```
+
+]
+
+---
+
 # Predicitons
 
 * For <span style="color: blue;">50 $Km²$</span> and <span style="color: blue;">10 000 $Km²$</span>
@@ -685,19 +709,17 @@ knitr::include_graphics("images/boxplot_with_predictions.png")
 * Take into account the sampling effort
 
 <br>
-* Compute the Species Richness trend for different spatial scales
-
-<br>
 * Add environmental covariates to understand at which scales they interact with biodiversity dynamic
 
 <br>
 * Explore the link with temporal scales
 
 <br>
-* Study other biodiversity metric
+* Enlarge the model to western europe
 
 <br>
-* Enlarge the model to western europe
+* Study other biodiversity metrics and other taxa (lepidopterans, amphibians...)
+
 
 ---
 
