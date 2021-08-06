@@ -103,16 +103,17 @@ Focus on
 # Species richness and spatial scale : the SAR
 
 .pull-left[
+<br><br>
 - **SAR** = Species Area Relationship (Arrhenius 1921)
 
-<br>
+<br><br><br>
 - Linear on a log-log scale
 
-<br>
-- The slope indicates the spatial $\beta-diversity$
+<!-- <br> -->
+<!-- - The slope indicates the spatial $\beta-diversity$ -->
 
-<br>
-- Can be used to extrapolate species richness (*e.g.* Kunin *et al.* 2018)
+<!-- <br> -->
+<!-- - Can be used to extrapolate species richness (*e.g.* Kunin *et al.* 2018) -->
 
 ]
 
@@ -131,17 +132,17 @@ knitr::include_graphics("images/sar.png")
 
 .pull-left[
 
-<br>
+<br><br>
 - **STR** = Species-Time Relationship
 
-<br>
+<br><br><br>
 - Can also be well described by a power law
 
-<br>
-- Emerges from both sampling and ecological processes
+<!-- <br> -->
+<!-- - Emerges from both sampling and ecological processes -->
 
-<br>
-.center[**And... we don't know much more about it**]
+<!-- <br> -->
+<!-- .center[**And... we don't know much more about it**] -->
 ]
 
 .pull-right[
@@ -162,11 +163,10 @@ knitr::include_graphics("images/str.png")
 <br>
 - **STAR** = Species-Time-Area Relationship
 
-<br>
-- Results from both environmental variability and biological processes
+<!-- <br> -->
+<!-- - Results from both environmental variability and biological processes -->
 
-<br>
-<br>
+<br><br><br>
 The STAR raises the question: 
 
 <br>
@@ -187,7 +187,7 @@ class: inverse, center, middle
 
 What about space, time and...
 
-## Biodiversity dynamic ?
+## Species richness trends ?
 
 ---
 
@@ -234,17 +234,17 @@ class: inverse, center, middle
 
 # Problematic:
 
-What are the links between biodiversity dynamic and spatio-temporal scales?
+What are the links between species-richness trends and spatio-temporal scales?
 
 --
 
 
 <br><br><br>
-<b>Taxon:</b> Birds (many surveys by ornithologists for a long time, well identified, able to move after perturbations...)
+<b>Taxon:</b> Birds (many long time series, well identified, able to move after perturbations...)
 
 <b>Location:</b> At first Czech Republic, then western Europe, north America...
 
-<b>Methods:</b> Machine learning approaches such as Random Forests (RF) or Boosted Regression Trees (BRT)
+<b>Methods:</b> Tree based Machine learning approaches (Random Forests or Boosted Regression Trees)
 
 ---
 
@@ -252,7 +252,7 @@ class: inverse, center, middle
 
 # Goal
 
-Use heterogeneous avian biodiversity datasets to model species richness dynamic across continuums of space and time scales
+Use heterogeneous avian biodiversity datasets to model species richness trends across continuums of space and time scales
 
 .center[
 ```{r, out.width="50%"}
@@ -542,9 +542,9 @@ class: inverse, center, middle
 
 * For each spatial scale, we computed the species richness trend (slope of linear regression)
 
-* 3 time periods (M2, M3 and M4 of the Atlas dataset)
+* 3 points in time (1987, 2002, 2015)
 
-* Harmonization with JPSP datasets: choosing 3 time periods the closest to the Atlas ones
+* Harmonization of the two datasets
 
 ---
 
