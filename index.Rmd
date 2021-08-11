@@ -167,10 +167,11 @@ knitr::include_graphics("images/str.png")
 <!-- - Results from both environmental variability and biological processes -->
 
 <br><br><br>
-The STAR raises the question: 
 
-<br>
-.center[**At which time span should we survey biodiversity?**]
+<!-- The STAR raises the question:  -->
+
+<!-- <br> -->
+.center[**Temporal and spatial scales highly drive species richness**]
 
 ]
 
@@ -569,7 +570,7 @@ knitr::include_graphics("images/boxplot.png")
 
 * Increasing species richness trend with spatial scale
 
-* Coherent with Chase *et. al* 2019, Hill & Hammer 2004
+* Coherent with Chase *et. al* 2019, Hill & Hamer 2004
 
 * Easier extirpation at smaller scales
 
@@ -586,7 +587,7 @@ knitr::include_graphics("images/boxplot.png")
 
 .center[
 <br>
-**Question:** is this positive trend observed for a continuum of spatial scales? 
+**Question:** is this result observed for a continuum of spatial scales? 
 ]
 
 
@@ -594,7 +595,7 @@ knitr::include_graphics("images/boxplot.png")
 
 class: inverse, center, middle 
 
-# Next steps
+# Next step
 
 ---
 
@@ -602,11 +603,11 @@ class: inverse, center, middle
 
 Machine learning approach allows me to:
 
-1. Understand the drivers of biodiversity changes
+1. Understand the drivers of species richness changes
 
 2. Predict the species richness
 
-Predictions will allow me to fill the boxplot gaps, spatial and temporal gaps  
+Predictions will allow me to fill the boxplot gaps, spatial and temporal gaps of the datasets 
 
 <br>
 
@@ -709,7 +710,7 @@ knitr::include_graphics("images/boxplot_with_predictions.png")
 * Take into account the sampling effort
 
 <br>
-* Add environmental covariates to understand at which scales they interact with biodiversity dynamic
+* Take into account environmental covariates to understand at which scales they interact with biodiversity dynamic
 
 <br>
 * Explore the link with temporal scales
@@ -727,3 +728,7 @@ class: inverse, center, middle
 
 # Thank you for your attention
 
+
+.footnote[
+Email: leroy@fzp.czu.cz
+]
