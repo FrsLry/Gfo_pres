@@ -570,7 +570,7 @@ knitr::include_graphics("images/boxplot.png")
 
 * Increasing species richness trend with spatial scale
 
-* Coherent with Chase *et. al* 2019, Hill & Hamer 2004
+* Coherent with Chase *et. al* 2019
 
 * Easier extirpation at smaller scales
 
